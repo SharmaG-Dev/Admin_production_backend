@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 
 const app = express();
 app.use(cors({
-    origin: ["http://localhost:3000"]
+    origin: ["http://localhost:3000","https://admin-production-frontend.vercel.app"]
 }))
 
 // Middlewares 
